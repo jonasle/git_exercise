@@ -4,20 +4,29 @@ Exercises used in the Git course of Tass Belgium.
 
 2. Clone the forked repository on your machine
 
-3. Edit your .gitignore so that those pesky .out files from the source code in src/ are not tracked. Try to build and check "git status" to verify it works
-
-4. Create a branch called commit <> and switch to that branch. In 'WIP' add your name here: Michiel Jordens
-
-5. Merge your branch WIP back into the master branch and solve the merge conflict that happens
-
-6. Move the LICENSE file to lic/LICENSE and make sure this move is tracked in Git
-
-7. Use your Git skills to tell me what was on this line (and add the tool you used here: #GIT COMMAND#)
-
-8. Create a new feature-branch called cleanprint in which you add the following features to the source code:
-  - Terminate the string with a newline
-  - Indent the output with a tab
-  Push this branch onto your remote
+ 3. Edit your .gitignore so that those pesky .out files from the source code in
+ 
+ 4. Create a branch called commit <> and switch to that branch. In 'WIP' add yo
++Branch is commit genoemd (foutje)
+ 
+ 5. Merge your branch WIP back into the master branch and solve the merge confl
+ 
+ 6. Move the LICENSE file to lic/LICENSE and make sure this move is tracked in 
+ 
+-7. Use your Git skills to tell me what was on this line (and add the tool you 
++7. Use your Git skills to tell me what was on this line (and add the tool you 
++gitk - abracadabra of git log daarna git pull ex7 
++en dan terug git checkout om terug naar de laatste te gaan)
+ 
+ 8. Create a new feature-branch called cleanprint in which you add the followin
+   - Terminate the string with a newline
+   - Indent the output with a tab
+   Push this branch onto your remote
++eerst commit -a -m "message"
++daarna git push remote localbranch:remotebranch
++in dit geval vertaald zich tot git push origin cleanprint
++
+ 
 
 9. Given the following tree where A is the initial commit:
   G   H   I   J   
@@ -36,12 +45,12 @@ Exercises used in the Git course of Tass Belgium.
     - J in terms of B :
     - J in terms of A :
 
-10. Change the numbering of this file to HEX numbering and use 'git add -p' to try the interactive adding
+A. Change the numbering of this file to HEX numbering and use 'git add -p' to try the interactive adding
 
-11. Add a new file in the root of the project called feedback in which you can leave any feedback you have about the course. Add it to the staging area and then try to stash it
+B. Add a new file in the root of the project called feedback in which you can leave any feedback you have about the course. Add it to the staging area and then try to stash it
 
-12. Bring back your stash (try out the difference between apply and pop) and commit it.
+C. Bring back your stash (try out the difference between apply and pop) and commit it.
 
-13. Push all your changes to the repository
+D. Push all your changes to the repository
 
-14. On GitHub, create a pull-request for me so I can see your changes :)
+E. On GitHub, create a pull-request for me so I can see your changes :)
