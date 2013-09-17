@@ -6,13 +6,14 @@ Exercises used in the Git course of Tass Belgium.
 
 3. Edit your .gitignore so that those pesky .out files from the source code in src/ are not tracked. Try to build and check "git status" to verify it works
 
-4. Create a branch called 'WIP' from commit <> and switch to that branch. In 'WIP' add your name here: #YOUR NAME#
+4. Create a branch called 'WIP' from commit <> and switch to that branch. In 'WIP' add your name here: Matthias
 
 5. Merge your branch WIP back into the master branch and solve the merge conflict that happens
 
 6. Move the LICENSE file to lic/LICENSE and make sure this move is tracked in Git
 
-7. Use your Git skills to tell me what was on this line (and add the tool you used here: #GIT COMMAND#)
+7. Use your Git skills to tell me what was on this line (and add the tool you used here: gitg)
+  Previous on line: Abracadabra
 
 8. Create a new feature-branch called cleanprint in which you add the following features to the source code:
   - Terminate the string with a newline
@@ -31,17 +32,17 @@ Exercises used in the Git course of Tass Belgium.
           \ / 
            A
     Can you give the notation for:
-    - E in terms of A (ex. A^^2):
-    - H in terms of A :
-    - J in terms of B :
-    - J in terms of A :
+    - E in terms of A (ex. A^^2): HEAD^^2
+    - H in terms of A : HEAD~2^2
+    - J in terms of B : HEAD^3^2
+    - J in terms of A : HEAD^2^^2 or HEAD^^3^2
 
-10. Change the numbering of this file to HEX numbering and use 'git add -p' to try the interactive adding
+0A. Change the numbering of this file to HEX numbering and use 'git add -p' to try the interactive adding
 
-11. Add a new file in the root of the project called feedback in which you can leave any feedback you have about the course. Add it to the staging area and then try to stash it
+0B. Add a new file in the root of the project called feedback in which you can leave any feedback you have about the course. Add it to the staging area and then try to stash it
 
-12. Bring back your stash (try out the difference between apply and pop) and commit it.
+0C. Bring back your stash (try out the difference between apply and pop) and commit it.
 
-13. Push all your changes to the repository
+0D. Push all your changes to the repository
 
-14. On GitHub, create a pull-request for me so I can see your changes :)
+0E. On GitHub, create a pull-request for me so I can see your changes :)
