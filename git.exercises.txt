@@ -1,0 +1,3 @@
+Exercises used in the Git course of Tass Belgium.
+
+1. Fork the repository https://github.com/jonasle/git_exercise on GitHub
