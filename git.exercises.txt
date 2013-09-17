@@ -34,6 +34,7 @@ Exercises used in the Git course of Tass Belgium.
     - E in terms of A (ex. A^^2):
     - H in terms of A :
     - J in terms of B :
+    - J in terms of A :
 
 10. Change the numbering of this file to HEX numbering and use 'git add -p' to try the interactive adding
 
