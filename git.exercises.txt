@@ -6,4 +6,6 @@ Exercises used in the Git course of Tass Belgium.
 
 3. Edit your .gitignore so that those pesky .out files from the source code in src/ are not tracked. Try to build and check "git status" to verify it works
 
-4. Create a branch called 'WIP' from commit <> and switch to that branch. In 'WIP' add your name here: 
+4. Create a branch called 'WIP' from commit <> and switch to that branch. In 'WIP' add your name here: #YOUR NAME#
+
+5. Merge your branch WIP back into the master branch and solve the merge conflict that happens
