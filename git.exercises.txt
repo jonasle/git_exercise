@@ -13,3 +13,9 @@ Exercises used in the Git course of Tass Belgium.
 6. Move the LICENSE file to lic/LICENSE and make sure this move is tracked in Git
 
 7. Use your Git skills to tell me what was on this line (and add the tool you used here: #GIT COMMAND#)
+
+8. Create a new feature-branch called cleanprint in which you add the following features to the source code:
+  - Terminate the string with a newline
+  - Indent the output with a tab
+  Push this branch onto your remote
+
