@@ -19,7 +19,7 @@ Exercises used in the Git course of Tass Belgium.
   - Indent the output with a tab
   Push this branch onto your remote
 
-9. Given the following tree where A is the initial commit:
+9. Given the following tree where A is the final commit:
   G   H   I   J   
    \ /     \ / 
     D   E   F   
@@ -31,17 +31,17 @@ Exercises used in the Git course of Tass Belgium.
           \ / 
            A
     Can you give the notation for:
-    - E in terms of A (ex. A^^2):
-    - H in terms of A :
-    - J in terms of B :
-    - J in terms of A :
+    - E in terms of A (ex. A~^2):
+    - H in terms of A : A~2^2
+    - J in terms of B : B^3^2
+    - J in terms of A : A^2^^2
 
-10. Change the numbering of this file to HEX numbering and use 'git add -p' to try the interactive adding
+A. Change the numbering of this file to HEX numbering and use 'git add -p' to try the interactive adding
 
-11. Add a new file in the root of the project called feedback in which you can leave any feedback you have about the course. Add it to the staging area and then try to stash it
+B. Add a new file in the root of the project called feedback in which you can leave any feedback you have about the course. Add it to the staging area and then try to stash it
 
-12. Bring back your stash (try out the difference between apply and pop) and commit it.
+C. Bring back your stash (try out the difference between apply and pop) and commit it.
 
-13. Push all your changes to the repository
+D. Push all your changes to the repository
 
-14. On GitHub, create a pull-request for me so I can see your changes :)
+E. On GitHub, create a pull-request for me so I can see your changes :)
