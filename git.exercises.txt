@@ -36,3 +36,11 @@ Exercises used in the Git course of Tass Belgium.
     - J in terms of B :
 
 10. Change the numbering of this file to HEX numbering and use 'git add -p' to try the interactive adding
+
+11. Add a new file in the root of the project called feedback in which you can leave any feedback you have about the course. Add it to the staging area and then try to stash it
+
+12. Bring back your stash (try out the difference between apply and pop) and commit it.
+
+13. Push all your changes to the repository
+
+14. On GitHub, create a pull-request for me so I can see your changes :)
